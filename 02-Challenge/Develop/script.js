@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
 
-  var plength = prompt("Password: at least 8 characters")
+  var plength = prompt("Password: must be between 8 - 128 characters")
   if (plength < 8 || plength > 128 ) {
   }
 
