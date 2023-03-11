@@ -5,6 +5,8 @@ function generatePassword() {
 
   var plength = prompt("Password: must be between 8 - 128 characters")
   if (plength < 8 || plength > 128 ) {
+  } else {
+    alert("MUST BE BETWEEN 8 - 128 CHARACTERS")
   }
 
   var charlowercase = prompt("Would you like to include lowercase characters?")
