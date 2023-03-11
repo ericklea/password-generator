@@ -11,6 +11,9 @@ function generatePassword() {
 
   var charuppercase = prompt("Would you like to include uppercase characters")
 
+  var charnumberic = prompt("Would you like to include numeric characters?")
+
+  
   
 }
 
