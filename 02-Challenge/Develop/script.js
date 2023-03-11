@@ -13,7 +13,7 @@ function generatePassword() {
 
   var charnumberic = prompt("Would you like to include numeric characters?")
 
-  
+  var charspecial = prompt("Would you like to include special characters?")
   
 }
 
