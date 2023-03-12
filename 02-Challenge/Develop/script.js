@@ -14,11 +14,7 @@ function generatePassword() {
   var charspecial = prompt("Would you like to include special characters?")
 
   
-}
 
-function document.querySelector("password") {
-
-}
 
 // Write password to the #password input
 function writePassword() {
