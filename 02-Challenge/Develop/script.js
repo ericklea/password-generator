@@ -10,6 +10,7 @@ var symbols = ["!","@","#","$","%","^","&","*"];
 function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSymbols) {
   var availableCharacters = [];
 
+  var hasLowercase = prompt("Would you like to include lowercase letters?");
   if(hasLowercase) {
     availableCharacters = [lowerLetters];
   }
@@ -25,7 +26,10 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   if(hasSymbols) {
     availableCharacters = [symbols];
   }
-}
+};
+console.log(availableCharacters);
+
+generatePassword(8,true,true,true,true);
 
 
 // Write password to the #password input
