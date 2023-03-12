@@ -7,31 +7,30 @@ var numbers = [0,1,2,3,4,5,6,7,8,9];
 var symbols = ["!","@","#","$","%","^","&","*"];
 
 
+
 function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSymbols) {
   var availableCharacters = [];
 
-  var hasLowercase = prompt("Would you like to include lowercase letters?");
+  
   if(hasLowercase) {
     availableCharacters = [lowerLetters];
   }
 
-  var hasUppercase = prompt("Would you like to include uppercase letters?");
+  
   if(hasUppercase) {
     availableCharacters = [upperLetters];
   }
 
-  var hasNumbers = prompt("Would you like to include numbers?");
+  
   if(hasNumbers) {
     availableCharacters = [numbers];
   }
+
 
   if(hasSymbols) {
     availableCharacters = [symbols];
   }
 };
-console.log(availableCharacters);
-
-generatePassword(8,true,true,true,true);
 
 
 // Write password to the #password input
