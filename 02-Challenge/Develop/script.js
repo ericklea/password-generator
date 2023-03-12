@@ -20,6 +20,7 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
     availableCharacters = [upperLetters];
   }
 
+  var hasNumbers = prompt("Would you like to include numbers?");
   if(hasNumbers) {
     availableCharacters = [numbers];
   }
