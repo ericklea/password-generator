@@ -15,7 +15,7 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   if(length < 8 || length > 128) {
     alert("Must include 8-128 characters")
   }
-  
+
   if(length >= 8 && length =< 128) {
   var lowerLetters = prompt("would you like to include lowercase letters?");
   var upperLetters = prompt("Would you like to include uppercase letters?");
@@ -26,22 +26,22 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   var availableCharacters = [];
 
   if(hasLowercase) {
-    availableCharacters = [lowerLetters];
+    availableCharacters += [lowerLetters];
   }
 
   
   if(hasUppercase) {
-    availableCharacters = [upperLetters];
+    availableCharacters += [upperLetters];
   }
 
   
   if(hasNumbers) {
-    availableCharacters = [numbers];
+    availableCharacters += [numbers];
   }
 
 
   if(hasSymbols) {
-    availableCharacters = [symbols];
+    availableCharacters += [symbols];
   }
 
   var password = [];
