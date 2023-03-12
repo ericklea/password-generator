@@ -7,7 +7,7 @@ var lowerLetters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o",
 var upperLetters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
 
-function generatePassword() {
+function generatePassword = (plength, lowerLetters, upperLetters, numbers, symbols) {
 
   var plength = prompt("How many characters would you like to include?")
 
@@ -19,7 +19,7 @@ function generatePassword() {
 
   var symbols = prompt("Would you like to include special characters?")
 
-  
+}
 
 
 // Write password to the #password input
