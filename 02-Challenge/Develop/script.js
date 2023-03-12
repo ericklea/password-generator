@@ -34,6 +34,8 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   if(hasSymbols) {
     availableCharacters = [symbols];
   }
+
+  var password = [];
 };
 
 
