@@ -3,12 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
 
-  var char = "0123456789!@#$%^&*()abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-
   var plength = prompt("How many characters would you like to include?")
-  if 
-  }
 
   var charlowercase = prompt("Would you like to include lowercase characters?")
 
@@ -19,6 +14,10 @@ function generatePassword() {
   var charspecial = prompt("Would you like to include special characters?")
 
   
+}
+
+function document.querySelector("password") {
+
 }
 
 // Write password to the #password input
