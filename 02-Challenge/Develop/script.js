@@ -17,6 +17,10 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   if(hasUppercase) {
     availableCharacters = [upperLetters];
   }
+
+  if(hasNumbers) {
+    availableCharacters = [numbers];
+  }
 }
 
 
