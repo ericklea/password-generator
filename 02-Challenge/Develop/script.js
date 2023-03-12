@@ -12,36 +12,31 @@ var symbols = ["!","@","#","$","%","^","&","*"];
 function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSymbols) {
   
   var length = prompt("How many characters would you like to include?");
-  if(length < 8 || length > 128) {
-    alert("Must include 8-128 characters")
-  }
-
-  if(length >= 8 && length =< 128) {
   var lowerLetters = prompt("would you like to include lowercase letters?");
   var upperLetters = prompt("Would you like to include uppercase letters?");
   var numbers = prompt("Would you like to include numbers?");
   var symbols = prompt("Would you like to include symbols?");
-  }
+  
 
   var availableCharacters = [];
 
   if(hasLowercase) {
-    availableCharacters += [lowerLetters];
+    availableCharacters += 'abcdefghijklmnopqrstuvwxyz';
   }
 
   
   if(hasUppercase) {
-    availableCharacters += [upperLetters];
+    availableCharacters += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   }
 
   
   if(hasNumbers) {
-    availableCharacters += [numbers];
+    availableCharacters += '123456789';
   }
 
 
   if(hasSymbols) {
-    availableCharacters += [symbols];
+    availableCharacters += '!@#$%^&*';
   }
 
   var password = [];
