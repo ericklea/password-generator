@@ -13,6 +13,7 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   var availableCharacters = [];
   var lowerLetters = prompt("would you like to include lowercase letters?");
   var upperLetters = prompt("Would you like to include uppercase letters?");
+  var numbers = prompt("Would you like to include numbers?");
   
   
   if(hasLowercase) {
