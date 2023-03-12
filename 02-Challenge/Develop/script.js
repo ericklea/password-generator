@@ -8,16 +8,7 @@ var upperLetters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 
 
 function generatePassword = (length, hasLowercase, hasUppercase, hasNumbers, hasSymbols) {
-
-  var plength = prompt("How many characters would you like to include?")
-
-  var lowerLetters = prompt("Would you like to include lowercase characters?")
-
-  var upperLetters = prompt("Would you like to include uppercase characters")
-
-  var numbers = prompt("Would you like to include numeric characters?")
-
-  var symbols = prompt("Would you like to include special characters?")
+  
 
 }
 
