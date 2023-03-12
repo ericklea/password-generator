@@ -7,7 +7,7 @@ var lowerLetters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o",
 var upperLetters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
 
-function generatePassword = (plength, lowerLetters, upperLetters, numbers, symbols) {
+function generatePassword = (length, hasLowercase, hasUppercase, hasNumbers, hasSymbols) {
 
   var plength = prompt("How many characters would you like to include?")
 
