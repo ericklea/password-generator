@@ -8,9 +8,10 @@ var symbols = ["!","@","#","$","%","^","&","*"];
 
 
 
+
 function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSymbols) {
   var availableCharacters = [];
-
+  var lowerLetters = prompt("would you like to include lowercase letters?")
   
   if(hasLowercase) {
     availableCharacters = [lowerLetters];
