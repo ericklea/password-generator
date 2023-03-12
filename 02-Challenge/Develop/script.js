@@ -11,13 +11,13 @@ function generatePassword() {
 
   var plength = prompt("How many characters would you like to include?")
 
-  var charlowercase = prompt("Would you like to include lowercase characters?")
+  var lowerLetters = prompt("Would you like to include lowercase characters?")
 
-  var charuppercase = prompt("Would you like to include uppercase characters")
+  var upperLetters = prompt("Would you like to include uppercase characters")
 
-  var charnumberic = prompt("Would you like to include numeric characters?")
+  var numbers = prompt("Would you like to include numeric characters?")
 
-  var charspecial = prompt("Would you like to include special characters?")
+  var symbols = prompt("Would you like to include special characters?")
 
   
 
