@@ -14,7 +14,7 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   var lowerLetters = prompt("would you like to include lowercase letters?");
   var upperLetters = prompt("Would you like to include uppercase letters?");
   var numbers = prompt("Would you like to include numbers?");
-  
+  var symbols = prompt("Would you like to include symbols?");
   
   if(hasLowercase) {
     availableCharacters = [lowerLetters];
