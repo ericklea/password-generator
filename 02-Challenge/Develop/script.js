@@ -3,6 +3,8 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
 
+  var char = "0123456789!@#$%^&*()abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
   var plength = prompt("Password: must be between 8 - 128 characters")
   if (plength < 8 || plength > 128 ) {
   } else {
@@ -16,6 +18,7 @@ function generatePassword() {
   var charnumberic = prompt("Would you like to include numeric characters?")
 
   var charspecial = prompt("Would you like to include special characters?")
+
   
 }
 
