@@ -9,6 +9,8 @@ function generatePassword() {
     alert("must be between 8-128 characters")
     return generatePassword()
   }
+
+  // Lowercase character and its confirmation prompt
   var hasLowercase = confirm("would you like to include lowercase letters?");
   var hasUppercase = confirm("Would you like to include uppercase letters?");
   var hasNumbers = confirm("Would you like to include numbers?");
