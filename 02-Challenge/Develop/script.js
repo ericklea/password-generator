@@ -33,12 +33,12 @@ function generatePassword() {
     availableCharacters += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   }
 
-  // Conditional statement, adding numbers to available character, to populate in the password
+  // Conditional statement, adding numbers to available characters, to populate in the password
   if(hasNumbers) {
     availableCharacters += '123456789';
   }
 
-
+  // Conditional statement, adding symbols to available characters, to populate in the password
   if(hasSymbols) {
     availableCharacters += '!@#$%^&*';
   }
