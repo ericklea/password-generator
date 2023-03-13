@@ -1,7 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSymbols) {
+function generatePassword() {
   
   var length = prompt("How many characters would you like to include?");
   if (length <8 || length > 128) {
