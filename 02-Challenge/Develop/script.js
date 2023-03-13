@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Generate password function
 function generatePassword() {
-  
+  // Character length information including prompt and an alert and a return if character range boundaries are not met
   var length = prompt("How many characters would you like to include?");
   if (length <8 || length > 128) {
     alert("must be between 8-128 characters")
