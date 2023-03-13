@@ -48,7 +48,8 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
     var randomLetter = availableCharacters[randomNumber]
     password += randomLetter 
 
-  var password = [];
+  }
+  return password 
 };
 
 
