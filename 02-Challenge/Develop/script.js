@@ -12,10 +12,10 @@ var symbols = ["!","@","#","$","%","^","&","*"];
 function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSymbols) {
   
   var length = prompt("How many characters would you like to include?");
-  var lowerLetters = prompt("would you like to include lowercase letters?");
-  var upperLetters = prompt("Would you like to include uppercase letters?");
-  var numbers = prompt("Would you like to include numbers?");
-  var symbols = prompt("Would you like to include symbols?");
+  var hasLowercase = confirm("would you like to include lowercase letters?");
+  var hasUppercase = confirm("Would you like to include uppercase letters?");
+  var hasNumbers = confirm("Would you like to include numbers?");
+  var hasSymbols = confirm("Would you like to include symbols?");
   
 
   var availableCharacters = [];
