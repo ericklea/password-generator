@@ -46,6 +46,7 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   for (let i = 0; i < length; i++) {
     var randomNumber = Math.floor(Math.random()* availableCharacters.length)
     var randomLetter = availableCharacters[randomNumber]
+    password += randomLetter 
 
   var password = [];
 };
