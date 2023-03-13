@@ -28,7 +28,7 @@ function generatePassword() {
     availableCharacters += 'abcdefghijklmnopqrstuvwxyz';
   }
 
-  
+  // Conditional statement, adding uppercase letters to available characters, to populate in the password
   if(hasUppercase) {
     availableCharacters += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   }
