@@ -16,6 +16,7 @@ function generatePassword() {
   var hasUppercase = confirm("Would you like to include uppercase letters?");
   // Numbers characters variable and its confirmaiton prompt
   var hasNumbers = confirm("Would you like to include numbers?");
+  // Symbols characters variable and its confirmation prompt
   var hasSymbols = confirm("Would you like to include symbols?");
 
   
