@@ -22,7 +22,7 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   var hasSymbols = confirm("Would you like to include symbols?");
   
 
-  var availableCharacters = [];
+  var availableCharacters = "";
 
   if(hasLowercase) {
     availableCharacters += 'abcdefghijklmnopqrstuvwxyz';
