@@ -20,7 +20,7 @@ function generatePassword() {
   var hasSymbols = confirm("Would you like to include symbols?");
 
   
-
+  // Available characters variable string
   var availableCharacters = "";
 
   if(hasLowercase) {
