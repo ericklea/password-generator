@@ -1,6 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+// Generate password function
 function generatePassword() {
   
   var length = prompt("How many characters would you like to include?");
@@ -12,6 +13,7 @@ function generatePassword() {
   var hasUppercase = confirm("Would you like to include uppercase letters?");
   var hasNumbers = confirm("Would you like to include numbers?");
   var hasSymbols = confirm("Would you like to include symbols?");
+
   
 
   var availableCharacters = "";
