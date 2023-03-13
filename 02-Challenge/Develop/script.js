@@ -10,8 +10,9 @@ function generatePassword() {
     return generatePassword()
   }
 
-  // Lowercase character and its confirmation prompt
+  // Lowercase characters variable and its confirmation prompt
   var hasLowercase = confirm("would you like to include lowercase letters?");
+  // Uppercase characters variable and its confirmation prompt
   var hasUppercase = confirm("Would you like to include uppercase letters?");
   var hasNumbers = confirm("Would you like to include numbers?");
   var hasSymbols = confirm("Would you like to include symbols?");
