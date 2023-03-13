@@ -23,6 +23,7 @@ function generatePassword() {
   // Available characters variable string
   var availableCharacters = "";
 
+  // Conditional statment, adding lowercase letters to available characters, to populate in the password
   if(hasLowercase) {
     availableCharacters += 'abcdefghijklmnopqrstuvwxyz';
   }
