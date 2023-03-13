@@ -42,6 +42,7 @@ function generatePassword(length, hasLowercase, hasUppercase, hasNumbers, hasSym
   if(hasSymbols) {
     availableCharacters += '!@#$%^&*';
   }
+  var password = "";
 
   var password = [];
 };
