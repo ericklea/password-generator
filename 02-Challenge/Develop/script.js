@@ -5,7 +5,7 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
   // Character length information including prompt and an alert and a return if character range boundaries are not met
   var length = prompt("How many characters would you like to include?");
-  if (length <8 || length > 128) {
+  if(length <8 || length > 128) {
     alert("must be between 8-128 characters")
     return generatePassword()
   }
@@ -18,7 +18,10 @@ function generatePassword() {
   var hasNumbers = confirm("Would you like to include numbers?");
   // Symbols characters variable and its confirmation prompt
   var hasSymbols = confirm("Would you like to include symbols?");
-  
+  if(!hasLowercase && !hasUppercase && !hasNumbers && !hasSymbols) {
+    alert("must include one of the following: lowercase letters, uppercase letter, numbers, symbols")
+    return generatePassword()
+  }
   
   // Available characters variable string
   var availableCharacters = "";
