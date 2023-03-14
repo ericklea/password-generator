@@ -18,7 +18,7 @@ function generatePassword() {
   var hasNumbers = confirm("Would you like to include numbers?");
   // Symbols characters variable and its confirmation prompt
   var hasSymbols = confirm("Would you like to include symbols?");
-
+  
   
   // Available characters variable string
   var availableCharacters = "";
@@ -45,12 +45,14 @@ function generatePassword() {
 
   // Password variable string
   var password = "";
+
   for (let i = 0; i < length; i++) {
     var randomNumber = Math.floor(Math.random()* availableCharacters.length)
     var randomLetter = availableCharacters[randomNumber]
     password += randomLetter 
 
   }
+  // Password populates
   return password 
 };
 
