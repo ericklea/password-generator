@@ -50,9 +50,9 @@ function generatePassword() {
   // Password variable string
   var password = "";
 
-  // For loop with length set as the conditional
+  // For loop with length set as the conditional, to repeat code block
   for (let i = 0; i < length; i++) {
-    // Variable to obtain a random whole number that does not have a fixed length
+    // Statement to obtain a random whole number that does not have a fixed length
     var randomNumber = Math.floor(Math.random()* availableCharacters.length)
     var randomLetter = availableCharacters[randomNumber]
     password += randomLetter 
